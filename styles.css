@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Ad Styles */
+.ad {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Sticky Ad */
+#sticky-ad {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    z-index: 9999;
+}
