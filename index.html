@@ -12,18 +12,18 @@
     <!-- Open Graph (OG) Tags for Social Media Sharing -->
     <meta property="og:title" content="Ultra Advanced CPM Ad Generator">
     <meta property="og:description" content="Optimize your website to maximize ad revenue with dynamic and advanced CPM ad strategies.">
-    <meta property="og:image" content="https://your-website.com/assets/preview-image.jpg">
-    <meta property="og:url" content="https://your-website.com/">
+    <meta property="og:image" content="https://likhonisaac.github.io/high-cpm-ad-generator/assets/preview-image.jpg">
+    <meta property="og:url" content="https://likhonisaac.github.io/high-cpm-ad-generator/">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card Meta Tags for Twitter Sharing -->
     <meta name="twitter:title" content="Ultra Advanced CPM Ad Generator">
     <meta name="twitter:description" content="Boost your site’s revenue by using the latest ad generation techniques with dynamic CPM ads.">
-    <meta name="twitter:image" content="https://your-website.com/assets/twitter-card.jpg">
+    <meta name="twitter:image" content="https://likhonisaac.github.io/high-cpm-ad-generator/assets/twitter-card.jpg">
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- Canonical Link to Avoid Duplicate Content Issues -->
-    <link rel="canonical" href="https://your-website.com/">
+    <link rel="canonical" href="https://likhonisaac.github.io/high-cpm-ad-generator/">
 
     <!-- Structured Data (JSON-LD) for SEO & Rich Snippets -->
     <script type="application/ld+json">
@@ -31,9 +31,9 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Ultra Advanced CPM Ad Generator",
-        "url": "https://your-website.com/",
+        "url": "https://likhonisaac.github.io/high-cpm-ad-generator/",
         "description": "Increase your earnings by using advanced CPM ad placement techniques and optimization strategies.",
-        "image": "https://your-website.com/assets/preview-image.jpg",
+        "image": "https://likhonisaac.github.io/high-cpm-ad-generator/assets/preview-image.jpg",
         "publisher": {
             "@type": "Organization",
             "name": "Ultra CPM"
@@ -118,21 +118,14 @@
     </header>
     <main>
         <section id="ads-container">
-            <!-- Interstitial Ad -->
-            <div id="interstitial-ad" class="ad hidden">
-                <h3>Your Support Means Everything</h3>
-                <p>Viewing this ad helps us continue creating great content!</p>
-                <script src="//pl100499.profitablecpmrate.com/12caf3e1b967c725bc896a6a73caf0b6/invoke.js"></script>
-                <button id="close-interstitial">Close Ad</button>
+            <!-- Auto-Open iframe Ad -->
+            <div id="iframe-ad" class="ad hidden">
+                <h3>Maximize Earnings - View Ad</h3>
+                <iframe src="https://example-ad-link.com" width="728" height="90" frameborder="0" allowfullscreen></iframe>
+                <p>Enjoy this ad and help support us.</p>
             </div>
 
-            <!-- Sticky Ad -->
-            <div id="sticky-ad" class="ad">
-                <p>Advertisement</p>
-                <script src="//pl25013478.profitablecpmrate.com/66/17/d7/6617d7163a895c776c2db7800c9d3306.js"></script>
-            </div>
-
-            <!-- Video Ad -->
+            <!-- Auto-Open Video Ad -->
             <div id="video-ad" class="ad hidden">
                 <video autoplay muted controls>
                     <source src="assets/sample-ad.mp4" type="video/mp4">
@@ -159,33 +152,19 @@
         <p>© 2024 Ultra Advanced CPM Ad Generator. Optimized for maximum revenue.</p>
     </footer>
     <script>
-        // JavaScript for dynamic ad loading
+        // JavaScript for dynamic ad opening
         document.addEventListener("DOMContentLoaded", () => {
             console.log("Initializing Ultra Advanced CPM Ad Generator...");
 
-            // Interstitial Ad Logic
-            const interstitialAd = document.getElementById("interstitial-ad");
-            const closeInterstitialBtn = document.getElementById("close-interstitial");
-
+            // Auto Open Iframe Ad
             setTimeout(() => {
-                interstitialAd.classList.remove("hidden");
-            }, 3000);
+                document.getElementById('iframe-ad').classList.remove('hidden');
+            }, 3000);  // Open iframe after 3 seconds
 
-            closeInterstitialBtn.addEventListener("click", () => {
-                interstitialAd.classList.add("hidden");
-            });
-
-            // Lazy Load Video Ad
-            const videoAd = document.getElementById("video-ad");
+            // Auto Open Video Ad
             setTimeout(() => {
-                videoAd.classList.remove("hidden");
-            }, 5000);
-
-            // Sticky Ad Tracking
-            const stickyAd = document.getElementById("sticky-ad");
-            stickyAd.addEventListener("click", () => {
-                alert("Thank you for supporting us by interacting with this ad!");
-            });
+                document.getElementById('video-ad').classList.remove('hidden');
+            }, 5000);  // Open video ad after 5 seconds
         });
     </script>
 </body>
