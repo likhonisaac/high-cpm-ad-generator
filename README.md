@@ -11,4 +11,4 @@ An advanced website template optimized for displaying high CPM ads with dynamic 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/high-cpm-ad-generator.git
+   git clone https://github.com/likhonisaac/high-cpm-ad-generator.git
