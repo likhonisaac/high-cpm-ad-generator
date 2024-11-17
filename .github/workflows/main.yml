@@ -1,0 +1,58 @@
+# Site Configuration
+site:
+  title: "Ultra Advanced CPM Ad Generator"
+  description: "Maximize your revenue with dynamic CPM ad generation techniques."
+  url: "https://likhonisaac.github.io/high-cpm-ad-generator/"
+  baseurl: "/"
+
+# SEO Meta Tags
+meta_tags:
+  description: "Maximize your revenue with an ultra-advanced CPM ad generator."
+  keywords: "CPM ad generator, dynamic ads, high CPM, ad revenue, monetization, sticky ads, popunder ads"
+  robots: "index, follow"
+  author: "Likhon Isaac"
+  charset: "UTF-8"
+
+# Open Graph for Social Media
+open_graph:
+  title: "Ultra Advanced CPM Ad Generator"
+  description: "Boost your website’s revenue with dynamic CPM ad strategies."
+  image: "https://likhonisaac.github.io/high-cpm-ad-generator/assets/preview-image.jpg"
+  url: "https://likhonisaac.github.io/high-cpm-ad-generator/"
+  type: "website"
+
+# Twitter Card Data
+twitter_card:
+  title: "Maximize Your Earnings with Advanced CPM Ads"
+  description: "Generate high-quality revenue with CPM ad techniques."
+  image: "https://likhonisaac.github.io/high-cpm-ad-generator/assets/twitter-card.jpg"
+  card_type: "summary_large_image"
+
+# Structured Data (JSON-LD)
+structured_data:
+  "@context": "https://schema.org"
+  "@type": "WebSite"
+  "name": "Ultra Advanced CPM Ad Generator"
+  "url": "https://likhonisaac.github.io/high-cpm-ad-generator/"
+  "description": "Generate higher revenue using advanced CPM ad strategies."
+  "image": "https://likhonisaac.github.io/high-cpm-ad-generator/assets/preview-image.jpg"
+  "publisher":
+    "@type": "Organization"
+    "name": "Ultra CPM"
+
+# Google Analytics Integration
+analytics:
+  google_analytics:
+    tracking_id: "G-XPB2Q5SKEB"  # Replace with your Google Analytics tracking ID
+
+# Ads Integration
+ads_integration:
+  ad_networks:
+    - name: "Profitable CPM Rate"
+      key: "f6669a79207268aad812db292d6b5470"
+      format: "iframe"
+      ad_size: "728x90"
+    - name: "Adsterra"
+      key: "6ef5bb925723a00f5a280cee80cfc569"
+      format: "iframe"
+      ad_size: "300x250"
